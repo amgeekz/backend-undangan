@@ -1,0 +1,19 @@
+body {
+    overflow: overlay;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 !important;
+}
+
+.list-menu:hover {
+    background-color: var(--bs-gray-200);
+    color: #000000;
+}
+
+.list-menu.danger:hover {
+    background-color: var(--bs-danger);
+    color: var(--bs-white);
+}
+
+.hover:hover {
+    background: var(--bs-gray-200);
+}
